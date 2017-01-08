@@ -1,7 +1,5 @@
 package com.ociweb;
 
-import static org.junit.Assert.fail;
-
 import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.net.SocketException;
@@ -66,7 +64,6 @@ public class PNetPrototype {
 			
 		} catch (URISyntaxException e) {						
 			e.printStackTrace();
-			fail();
 		}
 		return root;
 	}
